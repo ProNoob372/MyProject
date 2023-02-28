@@ -1,7 +1,5 @@
 package JavaExecutavel;
 
-import java.util.Scanner;
-
 public class ExercicioDeAula {
 
 	public static void main(String[] args) {
@@ -14,12 +12,10 @@ public class ExercicioDeAula {
 		
 		System.out.printf("o valor é: %.2f%n", resposta);
 		
-		Scanner sc = new Scanner(System.in);
 		
-		int idade = sc.nextInt();
-		System.out.print("sua idade é " + idade);
 		
-		sc.close();
+		
+		
 	}
 
 }
